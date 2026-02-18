@@ -1,0 +1,91 @@
+---
+chunk_id: "manifest"
+domain: "schema"
+category: "index"
+format: "yaml"
+version: "1.0"
+last_updated: "2026-02-18"
+status: "active"
+summary: >-
+  Complete index of all brand chunks in this system. Used by agents to understand
+  what knowledge is available and how to retrieve it.
+---
+
+brand_system:
+  name: "EELISA"
+  version: "1.0.0"
+  last_updated: "2026-02-18"
+  total_chunks: 12
+
+chunks:
+  - chunk_id: "positioning-core"
+    path: "positioning/brand-positioning.yaml"
+    domain: "positioning"
+    priority: 1
+    summary: "Core positioning and value proposition. The foundation every agent loads first."
+
+  - chunk_id: "brand-values"
+    path: "positioning/brand-values.yaml"
+    domain: "positioning"
+    priority: 2
+    summary: "Internal principles and customer-facing values."
+
+  - chunk_id: "voice-core"
+    path: "messaging/voice-core.md"
+    domain: "messaging"
+    priority: 1
+    summary: "Core brand voice, emotional register, and voice attributes."
+
+  - chunk_id: "voice-translations"
+    path: "messaging/voice-translations.md"
+    domain: "messaging"
+    priority: 2
+    summary: "Do/don't voice examples across headlines, CTAs, error states, and onboarding."
+
+  - chunk_id: "voice-key-messages"
+    path: "messaging/voice-key-messages.md"
+    domain: "messaging"
+    priority: 3
+    summary: "The hierarchy of messages: primary message, supporting messages, proof points."
+
+  - chunk_id: "messaging-framework"
+    path: "messaging/messaging-framework.md"
+    domain: "messaging"
+    priority: 4
+    summary: "Channel-specific guidelines: website, email, social, internal."
+
+  - chunk_id: "audience-primary"
+    path: "audience/persona-primary.yaml"
+    domain: "audience"
+    priority: 1
+    summary: "Primary customer persona with context, needs, fears, and communication style."
+
+  - chunk_id: "brand-about"
+    path: "identity/brand-about.md"
+    domain: "identity"
+    priority: 1
+    summary: "Standard company descriptions in one sentence, two sentences, and one paragraph."
+
+  - chunk_id: "visual-system"
+    path: "identity/visual-system.json"
+    domain: "identity"
+    priority: 2
+    summary: "Visual identity tokens: colors, typography, and imagery guidelines."
+
+  - chunk_id: "terminology"
+    path: "identity/terminology.yaml"
+    domain: "identity"
+    priority: 3
+    summary: "Approved product and brand terminology with capitalization rules."
+
+  - chunk_id: "guardrails-messaging"
+    path: "guardrails/constraints-messaging.yaml"
+    domain: "guardrails"
+    priority: 1
+    summary: "Hard messaging constraints: what this brand never says or claims."
+
+  - chunk_id: "guardrails-visual"
+    path: "guardrails/constraints-visual.yaml"
+    domain: "guardrails"
+    priority: 2
+    summary: "Hard visual constraints: colors, typography, imagery never used."
