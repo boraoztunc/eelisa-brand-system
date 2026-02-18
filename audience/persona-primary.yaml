@@ -1,0 +1,43 @@
+---
+chunk_id: "audience-primary"
+domain: "audience"
+category: "persona"
+subcategory: "primary"
+context_tags:
+  - "primary-customer"
+  - "icp"
+  - "persona"
+depends_on: []
+token_count: 210
+format: "yaml"
+version: "1.0"
+last_updated: "2026-02-18"
+status: "active"
+summary: >-
+  Primary customer persona. Who they are, what drives them, how to communicate
+  with them effectively.
+---
+
+persona:
+  name: "[The Engaged Learner]"
+  segment: "[B2C]"
+  description: "[A student or academic professional seeking advanced, interdisciplinary educational opportunities.]"
+
+  context:
+    - "[Exploring options for higher education or professional development]"
+    - "[Navigating a competitive academic or professional landscape]"
+    - "[Accessing new knowledge and networking opportunities]"
+
+  needs:
+    - "[Access to high-quality, relevant educational content]"
+    - "[Opportunities for international collaboration and exchange]"
+    - "[Recognition for their skills and achievements]"
+
+  fears:
+    - "[Missing out on career-advancing opportunities]"
+    - "[Their education becoming obsolete or irrelevant]"
+
+  communication_style: >-
+    [Speak to their aspirations for growth and global impact. Lead with the benefits of
+    interdisciplinary learning and international exposure. Avoid overly academic jargon without
+    context. Emphasize credibility through institutional partnerships and success stories.]
