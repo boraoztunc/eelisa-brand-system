@@ -1,0 +1,75 @@
+---
+chunk_id: "retrieval-rules"
+domain: "schema"
+category: "rules"
+format: "yaml"
+version: "1.0"
+last_updated: "2026-02-18"
+status: "active"
+summary: >-
+  Task-to-chunk routing rules. Tells agents which chunks to load for each type
+  of task. Load required chunks always; optional chunks when context allows.
+---
+
+routing_rules:
+  - task: "writing copy or content"
+    required:
+      - "voice-core"
+      - "positioning-core"
+    optional:
+      - "voice-translations"
+      - "voice-key-messages"
+      - "messaging-framework"
+
+  - task: "brand review or compliance check"
+    required:
+      - "voice-core"
+      - "voice-translations"
+      - "guardrails-messaging"
+    optional:
+      - "positioning-core"
+      - "guardrails-visual"
+
+  - task: "describing the company or writing about page"
+    required:
+      - "brand-about"
+      - "positioning-core"
+    optional:
+      - "brand-values"
+
+  - task: "writing for a specific channel (email, social, ads)"
+    required:
+      - "messaging-framework"
+      - "voice-core"
+    optional:
+      - "voice-key-messages"
+      - "voice-translations"
+
+  - task: "audience targeting or persona research"
+    required:
+      - "audience-primary"
+      - "positioning-core"
+    optional:
+      - "messaging-framework"
+
+  - task: "visual or design guidance"
+    required:
+      - "visual-system"
+      - "guardrails-visual"
+    optional:
+      - "terminology"
+
+  - task: "naming, terminology, or vocabulary decisions"
+    required:
+      - "terminology"
+    optional:
+      - "positioning-core"
+      - "voice-core"
+
+  - task: "general brand question or unknown task"
+    required:
+      - "positioning-core"
+      - "voice-core"
+    optional:
+      - "brand-about"
+      - "voice-key-messages"
