@@ -2,7 +2,7 @@ chunk_id: "positioning-core"
 domain: "positioning"
 category: "positioning"
 subcategory: "foundation"
-context_tags:
+context_tags: asa
   - "value-proposition"
   - "positioning-statement"
   - "market-category"
