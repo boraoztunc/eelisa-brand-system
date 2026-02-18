@@ -1,0 +1,29 @@
+---
+chunk_id: "audience-analysis"
+domain: "audience"
+category: "persona"
+subcategory: "custom"
+context_tags:
+  - "persona"
+depends_on: []
+token_count: 0
+format: "yaml"
+version: "1.0"
+last_updated: "2026-02-18"
+status: "draft"
+summary: >-
+  [Add summary]
+---
+
+persona:
+  name: "[Persona name]"
+  segment: "[Segment]"
+  description: >-
+    [Description]
+  context:
+    - "[Context item]"
+  needs:
+    - "[Need]"
+  fears:
+    - "[Fear]"
+  communication_style: "[Style]"
