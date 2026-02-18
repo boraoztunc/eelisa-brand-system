@@ -1,0 +1,46 @@
+chunk_id: "positioning-core"
+domain: "positioning"
+category: "positioning"
+subcategory: "foundation"
+context_tags:
+  - "value-proposition"
+  - "positioning-statement"
+  - "market-category"
+depends_on: []
+token_count: 380
+format: "yaml"
+version: "1.0"
+last_updated: "2026-02-18"
+status: "active"
+summary: >-
+  Core positioning and value proposition. Who the company is, who it's for,
+  and what makes it different. The foundation every agent loads first.
+---
+
+company:
+  name: "EELISA"
+  url: "[company website URL]"
+  tagline: "[one-sentence description of what you do and who it's for]"
+  category: "[market category — be specific]"
+
+  vision: >-
+    [the world you're building toward — ambitious but grounded]
+
+  mission: >-
+    [what you do every day to get there — operational]
+
+  value_proposition: >-
+    [two to three sentences: what you do, who benefits, and why it matters]
+
+  positioning_statement: >-
+    [For [target audience] who [have this need], [Company] is the [category]
+    that [primary benefit] because [reason to believe].]
+
+key_differentiators:
+  - "[differentiator 1 — specific and provable]"
+  - "[differentiator 2]"
+  - "[differentiator 3]"
+
+what_we_are_not:
+  - "[common misconception or competitor category to distance from]"
+  - "[another thing to explicitly not be]"
