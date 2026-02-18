@@ -1,0 +1,47 @@
+---
+chunk_id: "guardrails-messaging"
+domain: "guardrails"
+category: "constraints"
+subcategory: "messaging"
+context_tags:
+  - "guardrails"
+  - "constraints"
+  - "prohibited"
+  - "messaging"
+depends_on: ["voice-core", "positioning-core"]
+token_count: 340
+format: "yaml"
+version: "1.0"
+last_updated: "2026-02-18"
+status: "active"
+summary: >-
+  Hard messaging constraints. What this brand never says, never claims, and
+  never sounds like. Enforced across all channels and agents.
+---
+
+never_say:
+  - phrase: "[Any overly informal or slang phrase]"
+    reason: "[To maintain a professional and authoritative voice in the academic context.]"
+    instead: "[Use formal and precise language.]"
+
+  - phrase: "[Claims of exclusivity or superiority without evidence]"
+    reason: "[As a collaborative entity, avoid language that alienates potential partners or implies a lack of humility.]"
+    instead: "[Focus on demonstrable achievements and collaborative spirit.]"
+
+  - phrase: "[Any jargon specific to a niche field without explanation]"
+    reason: "[To ensure accessibility and understanding across a diverse academic audience.]"
+    instead: "[Explain complex terms or simplify language for broader appeal.]"
+
+never_claim:
+  - "[Being the 'best' or 'only' in any given field, without specific, verifiable metrics.]"
+  - "[Guaranteeing specific individual outcomes from participation, as results can vary.]"
+  - "[That EELISA is a substitute for traditional academic degrees or institutions.]"
+
+tone_prohibitions:
+  - "[Condescending or overly academic, elitist tone.]"
+  - "[Hype-driven or overly sales-oriented tone.]"
+  - "[Passive-aggressive or overly critical tone, especially when discussing other initiatives.]"
+
+topic_restrictions:
+  - topic: "[Highly sensitive political or religious topics unrelated to EELISA's core mission.]"
+    policy: "[Avoid direct commentary; if relevant to a project, frame within an academic context of study.]"
