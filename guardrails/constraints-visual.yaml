@@ -1,0 +1,39 @@
+---
+chunk_id: "guardrails-visual"
+domain: "guardrails"
+category: "constraints"
+subcategory: "visual"
+context_tags:
+  - "guardrails"
+  - "visual"
+  - "design"
+  - "prohibited"
+depends_on: []
+token_count: 300
+format: "yaml"
+version: "1.0"
+last_updated: "2026-02-18"
+status: "active"
+summary: >-
+  Hard visual constraints. Colors, typography, imagery, and design patterns
+  this brand never uses. Enforced across all visual outputs.
+---
+
+color_prohibitions:
+  - "[Overly bright, neon colors, or highly saturated primaries (e.g., pure red, pure blue, pure yellow), as they can appear unprofessional or childish and conflict with the sophisticated, academic feel implied by #adadad.]"
+  - "[Any color that clashes aggressively with the primary grey (#adadad) and other brand colors, without purpose.]"
+
+typography_prohibitions:
+  - "[Highly decorative, script, or novelty fonts that lack readability and professionalism.]"
+  - "[Fonts that are extremely thin or overly bold, hindering legibility, especially for body text.]"
+  - "[Comic Sans or similar informal fonts, as they detract from the academic and serious nature of EELISA.]"
+
+imagery_prohibitions:
+  - "[Stock photos that appear overly generic, staged, or inauthentic, lacking genuine human connection or academic context.]"
+  - "[Imagery that is low-resolution, pixelated, or poorly composed, reflecting a lack of quality and attention to detail.]"
+  - "[Illustrations that are overly cartoonish or childish, undermining the serious and innovative spirit of EELISA.]"
+
+design_prohibitions:
+  - "[Excessive use of gradients or drop shadows that make designs appear dated or cluttered.]"
+  - "[Overly busy or visually chaotic layouts that overwhelm the viewer and hinder information processing.]"
+  - "[Designs that rely heavily on clichéd or stereotypical academic imagery (e.g., piles of books, graduation caps) without a fresh perspective.]"
