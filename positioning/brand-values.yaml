@@ -1,0 +1,36 @@
+chunk_id: "brand-values"
+domain: "positioning"
+category: "values"
+subcategory: "principles"
+context_tags:
+  - "values"
+  - "culture"
+  - "decision-making"
+depends_on: ["positioning-core"]
+token_count: 320
+format: "yaml"
+version: "1.0"
+last_updated: "2026-02-18"
+status: "active"
+summary: >-
+  Internal principles and customer-facing values. Used when agents need to
+  evaluate decisions, write about company culture, or maintain consistent behavior.
+---
+
+internal_principles:
+  - name: "[Value 1]"
+    description: "[What this means in practice, not in abstract]"
+    in_action: "[A concrete example of this value expressed in a decision]"
+
+  - name: "[Value 2]"
+    description: "[What this means in practice]"
+    in_action: "[Concrete example]"
+
+  - name: "[Value 3]"
+    description: "[What this means in practice]"
+    in_action: "[Concrete example]"
+
+customer_facing_values:
+  - "[What customers feel when they interact with you]"
+  - "[What you always deliver, without exception]"
+  - "[What you never compromise on]"
