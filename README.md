@@ -43,6 +43,14 @@ eelisa-brand-system-6/
     └── constraints-visual.yaml      # What this brand never shows
 ```
 
+## Agents
+
+This brand system includes 1 configured agent:
+
+- **Arty** — `agents/arty/`
+
+Each agent has three files: `identity.md`, `soul.md`, and `principles.md`.
+
 ## Maintaining this system
 
 Open this repo in [Brand IDE](https://brandide.app) to edit files with validation, token counting, and commit history. Every save creates a commit so you have a full version history.
