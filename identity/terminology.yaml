@@ -1,0 +1,39 @@
+---
+chunk_id: "terminology"
+domain: "identity"
+category: "language"
+subcategory: "terminology"
+context_tags:
+  - "terms"
+  - "vocabulary"
+  - "naming"
+depends_on: ["positioning-core"]
+token_count: 280
+format: "yaml"
+version: "1.0"
+last_updated: "2026-02-18"
+status: "active"
+summary: >-
+  Approved product and brand terminology. How to refer to things consistently.
+  Includes preferred terms, alternate forms to avoid, and capitalization rules.
+---
+
+product_terms:
+  - term: "EELISA"
+    use: "EELISA (always capitalized, no definite article)"
+    avoid: "The EELISA, EELISA Alliance"
+
+  - term: "[Learning Modules]"
+    use: "[Refer to specific educational units as Learning Modules or Modules]"
+    avoid: "[Courses, Classes, Lessons]"
+
+brand_language:
+  - preferred: "[Collaborative learning]"
+    instead_of: "[Group work]"
+
+  - preferred: "[Interdisciplinary approach]"
+    instead_of: "[Cross-field studies]"
+
+capitalization_rules:
+  - "Always capitalize 'EELISA' as the acronym and brand name."
+  - "[Capitalize names of specific programs or initiatives (e.g., EELISA Connect, EELISA Challenge) as proper nouns.]"
