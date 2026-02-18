@@ -1,0 +1,29 @@
+{
+  "chunk_id": "visual-system",
+  "domain": "identity",
+  "category": "visual",
+  "version": "1.0",
+  "last_updated": "2026-02-18",
+  "status": "active",
+  "summary": "Visual identity tokens: colors, typography, and spacing. Machine-readable for design tools and agents.",
+  "colors": {
+    "primary": "#adadad",
+    "secondary": "[unknown]",
+    "accent": "[unknown]",
+    "background": "[unknown]",
+    "surface": "[unknown]",
+    "text_primary": "[unknown]",
+    "text_secondary": "[unknown]"
+  },
+  "typography": {
+    "primary_font": "[unknown]",
+    "secondary_font": "[unknown]",
+    "heading_weight": "[unknown]",
+    "body_size": "[unknown]"
+  },
+  "tone": {
+    "photography": "[unknown]",
+    "illustration": "[unknown]",
+    "iconography": "[unknown]"
+  }
+}
